@@ -1,0 +1,23 @@
+# Віртуальне середовище
+venv/
+env/
+ENV/
+
+# Секретні змінні
+.env
+
+# Кеш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Дані обробки (ігноруємо вміст, зберігаємо структуру через .gitkeep)
+input_photos/*
+!input_photos/.gitkeep
+output_ideas/*
+!output_ideas/.gitkeep
+
+# IDE та редактори
+.idea/
+.vscode/
+*.swp
